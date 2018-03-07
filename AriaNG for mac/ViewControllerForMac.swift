@@ -1,38 +1,38 @@
 //
 //  ViewController.swift
-//  AriaNG
+//  AriaNG for mac
 //
 //  Created by Vinken Chan on 1/3/2018.
 //  Copyright © 2018年 Vinken Chan. All rights reserved.
 //
 
-import UIKit
+import Cocoa
 import WebKit
 
-class ViewController: UIViewController {
-
+class ViewControllerForMac: NSViewController {
+  
   @IBOutlet weak var theWebView: WKWebView!
 
   override func viewDidLoad() {
     super.viewDidLoad()
-
+    
     let path = Bundle.main.path(forResource: "index", ofType: ".html", inDirectory: "aria-ng-0.4.0")
     let url = URL(fileURLWithPath: path!)
     let request = URLRequest(url: url)
-
-    //禁用页面在最顶端时下拉拖动效果
-    theWebView.scrollView.bounces = false
-
+    
     //加载页面
-    theWebView.load(request)
-    self.view.addSubview(theWebView)
+    self.theWebView.load(request)
+    self.view.addSubview(self.theWebView)
+    // Do any additional setup after loading the view.
   }
-
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
+  
+  override var representedObject: Any? {
+    didSet {
+      // Update the view, if already loaded.
+    }
   }
-
-
+  
+  
 }
+
 
