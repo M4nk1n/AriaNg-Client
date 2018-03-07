@@ -10,12 +10,12 @@
 		7F4F98822047B39C00E4D438 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F98812047B39C00E4D438 /* AppDelegate.swift */; };
 		7F4F98842047B39C00E4D438 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F98832047B39C00E4D438 /* ViewController.swift */; };
 		7F4F988C2047B39C00E4D438 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4F988A2047B39C00E4D438 /* LaunchScreen.storyboard */; };
-		7F4F98942047B3FB00E4D438 /* aria-ng-0.4.0 in Resources */ = {isa = PBXBuildFile; fileRef = 7F4F98932047B3FB00E4D438 /* aria-ng-0.4.0 */; };
+		7F4F98942047B3FB00E4D438 /* aria-ng in Resources */ = {isa = PBXBuildFile; fileRef = 7F4F98932047B3FB00E4D438 /* aria-ng */; };
 		7F4F98C12047C21D00E4D438 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F98C02047C21D00E4D438 /* AppDelegate.swift */; };
 		7F4F98C32047C21D00E4D438 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F98C22047C21D00E4D438 /* MainWindowController.swift */; };
 		7F4F98C52047C21D00E4D438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F4F98C42047C21D00E4D438 /* Assets.xcassets */; };
 		7F4F98C82047C21D00E4D438 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4F98C62047C21D00E4D438 /* Main.storyboard */; };
-		7F4F98CF2047C49B00E4D438 /* aria-ng-0.4.0 in Resources */ = {isa = PBXBuildFile; fileRef = 7F4F98932047B3FB00E4D438 /* aria-ng-0.4.0 */; };
+		7F4F98CF2047C49B00E4D438 /* aria-ng in Resources */ = {isa = PBXBuildFile; fileRef = 7F4F98932047B3FB00E4D438 /* aria-ng */; };
 		7F4F98D02047CE9A00E4D438 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4F98852047B39C00E4D438 /* Main.storyboard */; };
 		7F4F98D12047CED600E4D438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F4F98882047B39C00E4D438 /* Assets.xcassets */; };
 		7F7C3428204FB098009235DA /* ViewControllerForMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7C3427204FB098009235DA /* ViewControllerForMac.swift */; };
@@ -29,7 +29,7 @@
 		7F4F98882047B39C00E4D438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F4F988B2047B39C00E4D438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F4F988D2047B39C00E4D438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7F4F98932047B3FB00E4D438 /* aria-ng-0.4.0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "aria-ng-0.4.0"; sourceTree = "<group>"; };
+		7F4F98932047B3FB00E4D438 /* aria-ng */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "aria-ng"; sourceTree = "<group>"; };
 		7F4F98BE2047C21D00E4D438 /* AriaNG for mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AriaNG for mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F4F98C02047C21D00E4D438 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F4F98C22047C21D00E4D438 /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 		7F4F98752047B39B00E4D438 = {
 			isa = PBXGroup;
 			children = (
-				7F4F98932047B3FB00E4D438 /* aria-ng-0.4.0 */,
+				7F4F98932047B3FB00E4D438 /* aria-ng */,
 				7F4F98802047B39C00E4D438 /* AriaNG */,
 				7F4F98BF2047C21D00E4D438 /* AriaNG for mac */,
 				7F4F987F2047B39C00E4D438 /* Products */,
@@ -193,7 +193,7 @@
 				7F4F98D12047CED600E4D438 /* Assets.xcassets in Resources */,
 				7F4F98D02047CE9A00E4D438 /* Main.storyboard in Resources */,
 				7F4F988C2047B39C00E4D438 /* LaunchScreen.storyboard in Resources */,
-				7F4F98942047B3FB00E4D438 /* aria-ng-0.4.0 in Resources */,
+				7F4F98942047B3FB00E4D438 /* aria-ng in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F4F98CF2047C49B00E4D438 /* aria-ng-0.4.0 in Resources */,
+				7F4F98CF2047C49B00E4D438 /* aria-ng in Resources */,
 				7F4F98C52047C21D00E4D438 /* Assets.xcassets in Resources */,
 				7F4F98C82047C21D00E4D438 /* Main.storyboard in Resources */,
 			);
