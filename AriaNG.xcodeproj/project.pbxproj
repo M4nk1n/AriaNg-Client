@@ -13,12 +13,13 @@
 		7F4F98942047B3FB00E4D438 /* aria-ng in Resources */ = {isa = PBXBuildFile; fileRef = 7F4F98932047B3FB00E4D438 /* aria-ng */; };
 		7F4F98C12047C21D00E4D438 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F98C02047C21D00E4D438 /* AppDelegate.swift */; };
 		7F4F98C32047C21D00E4D438 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F98C22047C21D00E4D438 /* MainWindowController.swift */; };
-		7F4F98C52047C21D00E4D438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F4F98C42047C21D00E4D438 /* Assets.xcassets */; };
 		7F4F98C82047C21D00E4D438 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4F98C62047C21D00E4D438 /* Main.storyboard */; };
 		7F4F98CF2047C49B00E4D438 /* aria-ng in Resources */ = {isa = PBXBuildFile; fileRef = 7F4F98932047B3FB00E4D438 /* aria-ng */; };
 		7F4F98D02047CE9A00E4D438 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4F98852047B39C00E4D438 /* Main.storyboard */; };
 		7F4F98D12047CED600E4D438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F4F98882047B39C00E4D438 /* Assets.xcassets */; };
 		7F7C3428204FB098009235DA /* ViewControllerForMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7C3427204FB098009235DA /* ViewControllerForMac.swift */; };
+		7F7C3439204FD42C009235DA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7F7C3438204FD42C009235DA /* README.md */; };
+		7F7C343A204FDF77009235DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F4F98882047B39C00E4D438 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,11 +34,11 @@
 		7F4F98BE2047C21D00E4D438 /* AriaNG for mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AriaNG for mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F4F98C02047C21D00E4D438 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F4F98C22047C21D00E4D438 /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
-		7F4F98C42047C21D00E4D438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F4F98C72047C21D00E4D438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F4F98C92047C21E00E4D438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F4F98CA2047C21E00E4D438 /* AriaNG_for_mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AriaNG_for_mac.entitlements; sourceTree = "<group>"; };
 		7F7C3427204FB098009235DA /* ViewControllerForMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForMac.swift; sourceTree = "<group>"; };
+		7F7C3438204FD42C009235DA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +62,11 @@
 		7F4F98752047B39B00E4D438 = {
 			isa = PBXGroup;
 			children = (
+				7F7C3438204FD42C009235DA /* README.md */,
 				7F4F98932047B3FB00E4D438 /* aria-ng */,
 				7F4F98802047B39C00E4D438 /* AriaNG */,
 				7F4F98BF2047C21D00E4D438 /* AriaNG for mac */,
+				7F4F98882047B39C00E4D438 /* Assets.xcassets */,
 				7F4F987F2047B39C00E4D438 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,7 +86,6 @@
 				7F4F98812047B39C00E4D438 /* AppDelegate.swift */,
 				7F4F98832047B39C00E4D438 /* ViewController.swift */,
 				7F4F98852047B39C00E4D438 /* Main.storyboard */,
-				7F4F98882047B39C00E4D438 /* Assets.xcassets */,
 				7F4F988A2047B39C00E4D438 /* LaunchScreen.storyboard */,
 				7F4F988D2047B39C00E4D438 /* Info.plist */,
 			);
@@ -96,7 +98,6 @@
 				7F4F98C02047C21D00E4D438 /* AppDelegate.swift */,
 				7F4F98C22047C21D00E4D438 /* MainWindowController.swift */,
 				7F7C3427204FB098009235DA /* ViewControllerForMac.swift */,
-				7F4F98C42047C21D00E4D438 /* Assets.xcassets */,
 				7F4F98C62047C21D00E4D438 /* Main.storyboard */,
 				7F4F98C92047C21E00E4D438 /* Info.plist */,
 				7F4F98CA2047C21E00E4D438 /* AriaNG_for_mac.entitlements */,
@@ -192,6 +193,7 @@
 			files = (
 				7F4F98D12047CED600E4D438 /* Assets.xcassets in Resources */,
 				7F4F98D02047CE9A00E4D438 /* Main.storyboard in Resources */,
+				7F7C3439204FD42C009235DA /* README.md in Resources */,
 				7F4F988C2047B39C00E4D438 /* LaunchScreen.storyboard in Resources */,
 				7F4F98942047B3FB00E4D438 /* aria-ng in Resources */,
 			);
@@ -201,8 +203,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F7C343A204FDF77009235DA /* Assets.xcassets in Resources */,
 				7F4F98CF2047C49B00E4D438 /* aria-ng in Resources */,
-				7F4F98C52047C21D00E4D438 /* Assets.xcassets in Resources */,
 				7F4F98C82047C21D00E4D438 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +310,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -359,6 +362,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -373,6 +377,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UM7977ZMTG;
 				INFOPLIST_FILE = AriaNG/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.vinken.AriaClient.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -388,6 +393,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UM7977ZMTG;
 				INFOPLIST_FILE = AriaNG/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.vinken.AriaClient.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -406,7 +412,7 @@
 				DEVELOPMENT_TEAM = UM7977ZMTG;
 				INFOPLIST_FILE = "AriaNG for mac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = io.vinken.AriaClient.macos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -424,7 +430,7 @@
 				DEVELOPMENT_TEAM = UM7977ZMTG;
 				INFOPLIST_FILE = "AriaNG for mac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = io.vinken.AriaClient.macos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
