@@ -16,7 +16,7 @@ class ViewControllerForMac: NSViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    let path = Bundle.main.path(forResource: "index", ofType: ".html", inDirectory: "aria-ng-0.4.0")
+    let path = Bundle.main.path(forResource: "index", ofType: ".html", inDirectory: "aria-ng")
     let url = URL(fileURLWithPath: path!)
     let request = URLRequest(url: url)
     
