@@ -9,29 +9,24 @@
 import Cocoa
 import WebKit
 
-class ViewControllerForMac: NSViewController {
-  
-  @IBOutlet weak var theWebView: WKWebView!
+class ViewControllerForMac: NSViewController, WKUIDelegate {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    
-    let path = Bundle.main.path(forResource: "index", ofType: ".html", inDirectory: "aria-ng")
-    let url = URL(fileURLWithPath: path!)
-    let request = URLRequest(url: url)
-    
-    //加载页面
-    self.theWebView.load(request)
-    self.view.addSubview(self.theWebView)
-    // Do any additional setup after loading the view.
+
+    let theWebView = WKWebView(frame: .zero)
+    theWebView.uiDelegate = self
+    view.addSubview(theWebView)
+
+    // 不自动转换为constrains，设置成false后下面的约束才能生效
+    theWebView.translatesAutoresizingMaskIntoConstraints = false
+    // 设置界面约束
+    Utils.setConstraint(subView: theWebView, superView: theWebView.superview!)
+
+    // 加载页面内容
+    Utils.loadContent(webView: theWebView)
+
   }
-  
-  override var representedObject: Any? {
-    didSet {
-      // Update the view, if already loaded.
-    }
-  }
-  
   
 }
 

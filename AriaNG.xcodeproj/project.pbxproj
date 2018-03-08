@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F166EB2205100CC00E9E3F0 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F166EB0205100C900E9E3F0 /* Utils.swift */; };
+		7F166EB32051042500E9E3F0 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F166EB0205100C900E9E3F0 /* Utils.swift */; };
 		7F4F98822047B39C00E4D438 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F98812047B39C00E4D438 /* AppDelegate.swift */; };
 		7F4F98842047B39C00E4D438 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F98832047B39C00E4D438 /* ViewController.swift */; };
 		7F4F988C2047B39C00E4D438 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4F988A2047B39C00E4D438 /* LaunchScreen.storyboard */; };
@@ -23,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F166EB0205100C900E9E3F0 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		7F4F987E2047B39C00E4D438 /* AriaNG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AriaNG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F4F98812047B39C00E4D438 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F4F98832047B39C00E4D438 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,14 +62,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F166EAF2051009400E9E3F0 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				7F166EB0205100C900E9E3F0 /* Utils.swift */,
+				7F4F98882047B39C00E4D438 /* Assets.xcassets */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
 		7F4F98752047B39B00E4D438 = {
 			isa = PBXGroup;
 			children = (
 				7F7C3438204FD42C009235DA /* README.md */,
 				7F4F98932047B3FB00E4D438 /* aria-ng */,
+				7F166EAF2051009400E9E3F0 /* Public */,
 				7F4F98802047B39C00E4D438 /* AriaNG */,
 				7F4F98BF2047C21D00E4D438 /* AriaNG for mac */,
-				7F4F98882047B39C00E4D438 /* Assets.xcassets */,
 				7F4F987F2047B39C00E4D438 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -218,6 +230,7 @@
 			files = (
 				7F4F98842047B39C00E4D438 /* ViewController.swift in Sources */,
 				7F4F98822047B39C00E4D438 /* AppDelegate.swift in Sources */,
+				7F166EB32051042500E9E3F0 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +241,7 @@
 				7F4F98C32047C21D00E4D438 /* MainWindowController.swift in Sources */,
 				7F4F98C12047C21D00E4D438 /* AppDelegate.swift in Sources */,
 				7F7C3428204FB098009235DA /* ViewControllerForMac.swift in Sources */,
+				7F166EB2205100CC00E9E3F0 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
