@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:AriaNG.xcodeproj">
+      location = "self:/Users/Vinken/Documents/WorkSpaces/Xcode/AriaNG/AriaNg-Client.xcodeproj">
    </FileRef>
 </Workspace>
