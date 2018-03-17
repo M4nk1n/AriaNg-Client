@@ -9,7 +9,7 @@
 import Cocoa
 import WebKit
 
-class ViewControllerForMac: NSViewController, WKUIDelegate {
+class ViewControllerForMac: NSViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -30,4 +30,19 @@ class ViewControllerForMac: NSViewController, WKUIDelegate {
   
 }
 
+
+extension ViewControllerForMac: WKUIDelegate {
+  @available(OSX 10.12, *)
+  func webView(_ webView: WKWebView, runOpenPanelWith parameters: WKOpenPanelParameters, initiatedByFrame frame: WKFrameInfo, completionHandler: @escaping ([URL]?) -> Void) {
+    let openPanel = NSOpenPanel()
+    openPanel.canChooseFiles = true
+    openPanel.begin { (result) in
+      if result.rawValue == NSFileHandlingPanelOKButton {
+        if let url = openPanel.url {
+          completionHandler([url])
+        }
+      }
+    }
+  }
+}
 
